@@ -45,7 +45,9 @@ class MainActivity : AppCompatActivity(),SensorEventListener {
             isRunning=true
             try {
                 var mp:MediaPlayer=MediaPlayer()
-                mp.setDataSource("http://server6.mp3")
+                mp.setDataSource("http://2017.downloadming11.me/bollywood%20mp3/Simmba%20(2018)/Simmba%20(2018)%20(320%20Kbps)/01%20-%20Aankh%20Marey%20-%20DownloadMing.Se.mp3")
+                mp.prepare()
+                mp.start()
             }catch (e:Exception){
 
             }
